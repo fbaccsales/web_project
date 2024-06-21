@@ -1,0 +1,442 @@
+body {
+    font-family: "Roboto", sans-serif !important;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px;
+}
+
+section h2 {
+    text-align: center;
+}
+
+h1,
+h2 {
+    color: #333;
+}
+
+.creditor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.creditor__link__img {
+    width: 100%;
+}
+
+.creditor img {
+    width: 100%;
+}
+
+.creditor__link {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4402ff;
+    width: 100%;
+    margin: 0 10px;
+    padding: 15px 0px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.creditor__link:hover {
+    text-decoration: none;
+    background-color: #32b6ea;
+}
+
+.creditor,
+.creditor-info {
+    background: #fff;
+    padding: 10px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 30px 10px;
+}
+
+.creditor h3,
+.creditor-info h3 {
+    margin-top: 0;
+}
+
+.creditor-info h3 {
+    text-align: center;
+}
+
+a {
+    color: #00f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.conditions ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.conditions ul li {
+    width: 100%;
+    background: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.users_info {
+    margin-bottom: 60px;
+    font-size: 24px;
+    width: 400px;
+    text-align: center;
+    /* border-bottom: 1px solid #000; */
+}
+
+.users_info:nth-child(2){
+    border-left: 2px solid #827f7ff7;
+    border-right: 2px solid #827f7ff7;
+}
+
+.din_info{
+    font-size: 35px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* fonts */
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* fonts */
+
+/* Адаптивка */
+@media (max-width: 550px) {
+    .creditor__link__img {
+        width: 100%;
+    }
+
+    .creditor img {
+        width: 100%;
+    }
+
+    .creditor__link {
+        font-size: 14px;
+        margin: 10px 10px;
+        padding: 10px 0px;
+        border-radius: 20px;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .creditor__link:hover {
+        text-decoration: none;
+        background-color: #32b6ea;
+    }
+
+    .creditor,
+    .creditor-info {
+        background: #fff;
+        padding: 10px 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin: 30px 10px;
+    }
+    .creditor-info p {
+        font-size: 14px;
+    }
+    .conditions ul {
+        list-style-type: none;
+        padding: 0;
+        display: block!important;
+        margin: 0 auto;
+        width: 65%;
+    }
+    .conditions ul li {
+        width: 100%;
+        background: #fff;
+        margin: 0px 0px 20px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+    .conditions ul li img {
+        margin-bottom: 20px!important;
+    }
+    .info{
+        display: flex;
+        flex-direction: column!important;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .users_info {
+        margin-bottom: 60px;
+        font-size: 16px;
+        width: 400px;
+        text-align: center;
+        /* border-bottom: 1px solid #000; */
+    }
+    
+    .users_info:nth-child(2){
+        border: 0px;
+    }
+    
+    .din_info{
+        font-size: 22px;
+    }
+}
+
+/* Планшети (макс. ширина 768px) */
+@media (min-width: 550px) and (max-width: 768px) {
+    .creditor__link__img {
+        width: 100%;
+        margin: 0px 0px 10px;
+    }
+
+    .creditor__link {
+        font-size: 16px;
+        margin: 5px 10px;
+        padding: 10px 0px;
+        border-radius: 20px;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .creditor__link:hover {
+        text-decoration: none;
+        background-color: #32b6ea;
+    }
+
+    .creditor,
+    .creditor-info {
+        background: #fff;
+        padding: 10px 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin: 30px 10px;
+    }
+    .creditor-info h3 {
+
+    }
+    .creditor-info p {
+        font-size: 14px;
+    }
+    .conditions ul {
+        list-style-type: none;
+        padding: 0;
+        display: block!important;
+        margin: 0 auto;
+        width: 70%;
+    }
+    .conditions ul li {
+        width: 100%;
+        background: #fff;
+        margin: 0px 0px 20px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    .conditions ul li img {
+        margin-bottom: 20px!important;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column!important;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .users_info {
+        margin-bottom: 60px;
+        font-size: 24px;
+        width: 400px;
+        text-align: center;
+        /* border-bottom: 1px solid #000; */
+    }
+    
+    .users_info:nth-child(2){
+        border: 0px;
+    }
+    
+    .din_info{
+        font-size: 35px;
+    }
+}
+
+/* Настільні комп'ютери (мін. ширина 769px) */
+@media (min-width: 769px) and (max-width: 1100px) {
+    .creditor__link {
+        font-size: 18px;
+        margin: 0 10px;
+        padding: 10px 0px;
+        border-radius: 20px;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .creditor__link:hover {
+        text-decoration: none;
+        background-color: #32b6ea;
+    }
+
+    .creditor,
+    .creditor-info {
+        background: #fff;
+        padding: 10px 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin: 30px 10px;
+    }
+    .creditor-info h3 {
+
+    }
+    .creditor-info p {
+        font-size: 15px;
+    }
+    .users_info {
+        margin-bottom: 60px;
+        font-size: 22px;
+        width: 400px;
+        text-align: center;
+        /* border-bottom: 1px solid #000; */
+    }
+    
+    .users_info:nth-child(2){
+        border-left: 2px solid #827f7ff7;
+        border-right: 2px solid #827f7ff7;
+    }
+    
+    .din_info{
+        font-size: 27px;
+    }
+}
+
+@media (min-width: 1101px) {
+    .creditor__link {
+        font-size: 20px;
+        margin: 0 10px;
+        padding: 10px 0px;
+        border-radius: 20px;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .creditor__link:hover {
+        text-decoration: none;
+        background-color: #32b6ea;
+    }
+
+    .creditor,
+    .creditor-info {
+        background: #fff;
+        padding: 10px 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin: 30px 10px;
+    }
+
+    .creditor-info h3 {
+
+    }
+    .creditor-info p {
+        font-size: 16px;
+    }
+}
+
+/* Адаптивка */
